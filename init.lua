@@ -729,7 +729,7 @@ require('lazy').setup({
       formatters = {
         clangfenk = {
           command = '/usr/bin/clang-format',
-          args = { '--style=file', '$FILENAME' },
+          args = { '--style=file' },
         },
       },
     },
